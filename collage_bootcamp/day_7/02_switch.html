@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var xx=prompt("enter the first number");
+        var yy=prompt("enter the second number");
+        var x=parseFloat(xx);
+        var y=parseFloat(yy);
+        if(!isNaN(x)&&!isNaN(y)){
+            var ch=prompt("write the operation");
+            switch(ch){
+                case '+' :document.write(x+y);
+                break;
+                case '-':document.write(x-y) ;
+                break;
+                case '*':document.write(x*y);
+                break;
+                case '/':document.write(x/y);
+                break;
+            }
+        }
+        else{
+            alert("invalid number");
+        }
+    </script>
+</body>
+</html>

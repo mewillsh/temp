@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box sizing</title>
+    <style>
+    .box{
+        height: 100px;
+        width: 100px;
+        padding: 5px;margin: 5px;
+        background-color: chartreuse;
+        border: 3px dotted red;
+        border-radius: 7px;   
+    }
+</style>
+</head>
+<body>
+    <!--border content ke charo taraf banao-->
+    <div class="box" style="box-sizing: content-box;">button</div>
+    <!--border border ke charo taraf banao aur content ke charo taraf banao-->
+    <div class="box" style="box-sizing: border-box;">button</div>
+</body>
+</html>

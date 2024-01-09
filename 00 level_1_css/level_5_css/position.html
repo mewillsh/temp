@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+        div{
+            width: 170px;
+            height: 130px;
+            background-color: red;
+            text-align: center;
+            margin: 10px;
+        }
+        
+        #first{
+            position: static;
+        }
+        #second{
+            position: relative;
+            left: 30px;
+            top: 50px;
+        }
+        #forth{
+            position: fixed;
+            left: 200px;
+            top: 200px;
+        }
+        
+    </style>
+</head>
+<body>
+  <div id="first">static</div> 
+  <div id="second">relative</div>
+  <div id="third" class="multi">absilute</div>
+  <div  class="multi">ababa</div>
+  <div  class="multi">abte</div>
+  <div  class="multi">abute</div>
+  <div  class="multi">absilute</div>
+  <div  class="multi">silute</div>
+  <div id="forth">fixed</div> 
+</body>
+</html>

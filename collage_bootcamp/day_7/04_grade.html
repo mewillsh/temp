@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    var xx=prompt("enter the marks of hindi");
+    var yy=prompt("enter the marks of english");
+    var aa=prompt("enter the marks of marathi");
+    var bb=prompt("enter the marks of science");
+    var cc=prompt("enter the marks of maths");
+    var x=parseFloat(xx);
+    var y=parseFloat(yy);
+    var a=parseFloat(aa);
+    var b=parseFloat(bb);
+    var c=parseFloat(cc);
+
+    if(!isNaN(x)&& !isNaN(y)&& !isNaN(a)&& !isNaN(b)&& !isNaN(c)){
+        var ch=(x+y+a+b+c)/5
+        switch(true){
+            case 80<ch && ch<=100 :document.write("excellent");
+            break;
+            case 70<=ch && ch<=79:document.write("very good") ;
+            break;
+            case 50<ch && ch<=69:document.write("abpve average");
+            break;
+            case ch<=49:document.write("you are the defination of disappointed");
+            break;
+        }
+    }
+    else{
+        alert("invalid number");
+    }
+</script>
+</body>
+</html>

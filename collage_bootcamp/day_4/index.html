@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #container{
+            position: static;
+            height: 100vh;
+            width: 100%;
+            background-color: darkgray;
+            background-image: linear-gradient(to right,rgb(67, 184, 219),brown);
+        }
+        nav{
+            width: 84%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 10px;
+            padding: 20px;
+            flex-direction: row-reverse;
+        }
+        nav ul li{
+            display: inline-block;
+            margin: 10px 20px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-family:Arial, Helvetica, sans-serif;
+            text-transform: uppercase;
+        }
+        nav ul li a:hover{
+            color: chocolate;
+        }
+        .details{
+            
+            margin-left: 15px;
+            margin-right: 10%;
+            display: inline-block;
+            margin-top: 13%;
+
+        }
+        .details h1{
+            margin-bottom: 20px;
+            font-size: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 15px;
+        }
+        span{
+            color: red;
+        }
+        .details p{
+            line-height: 22px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 15px;
+        }
+        .details a{
+            border: 4px solid black;
+            background-color: grey;
+            color: white;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 15px;
+            text-decoration: none;
+            display: inline-block;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+        #image{
+            position:absolute;
+            height: 80%;
+            width: 45%;
+            bottom: 0;
+            right: 100px;
+        }
+        #image img{
+            position: absolute;
+            bottom: 10%;
+            right: 10%;
+            height: 65%;
+        }
+        #image img src{
+            height: 50%;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="container">
+    <div #class="start">
+        <nav>
+            <ul>
+                <li><a href="">home</a></li>
+                <li><a href="pesonal.html">personal information</a></li>
+                <li><a href="">hobbies</a> </li>
+                <li><a href="">projects</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="details"><h1>hye I,am <span>HRITHIK ROSHAN</span></h1> <br>
+    <p>welcome to my personal website <br></p>
+    <a href="#">AUDITION VIDEO</a>
+</div>
+<div id="image"><img src="https://d30ny7ijak9wq4.cloudfront.net/s3fs-public/images/story/2023/01/30/gfffn.jpg" alt=""></div>
+</div>
+</body>
+</html>
